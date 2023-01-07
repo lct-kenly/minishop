@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+    --white-color: #fff;
+    --text-color: #ccc;
+    --black-color: #000;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62,5%;
+}
+
+.navbar {
+    height: 10rem;
+    background-color: red;
+}
+
+.navbar__first {
+    height: 3rem;
+    
+}
+
+.navbar__seccond {
+    height: 5rem;
+
+}
+
+.navbar__third {
+    height: 2rem;
+
+}
