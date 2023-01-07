@@ -13,12 +13,12 @@ html {
 
 .navbar {
     height: 10rem;
-    background-color: red;
+
 }
 
 .navbar__first {
     height: 3rem;
-    
+
 }
 
 .navbar__seccond {
