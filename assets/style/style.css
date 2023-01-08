@@ -1,3 +1,10 @@
+
+:root {
+    --white-color: #fff;
+    --text-color: #ccc;
+    --black-color: #000;
+}
+
 .navbar {
     height: 10rem;
 
@@ -9,7 +16,6 @@
 }
 
 .first-row__left-content {
-
 }
 
 .left-content__icon-content {
@@ -24,15 +30,38 @@
 
 }
 
+.icon-content__first-content {
+    position: relative;
+}
+
 .icon-content__first-content::before {
     content: "";
-    border: 1rem;
-    color: red;
+    height: 1.3rem;
+    border: 2rem;
+    width: 0.1rem;
+    background-color:var(--text-color);
+    position:absolute;
+    left: -1rem;
 }
+
+/* .icon-content__first-content::after {
+    content: "";
+    height: 1.3rem;
+    border: 2rem;
+    width: 0.1rem;
+    background-color:var(--text-color);
+    position:absolute;
+    right: 89%;
+    top: -20%;
+} */
 
 .first-content__tell {
     display: inline-block;
     margin-left: 0.3rem;
+}
+
+.first-row__right-content {
+    float: right;
 }
 
 .navbar__seccond {
